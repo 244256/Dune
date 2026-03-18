@@ -4,7 +4,7 @@ local Name       = "Bgon0807's Application"
 local OwnerID    = "pPCHbkufcB"
 local Secret     = "183b78decb65e8e5a65b3e1271b9837624e21f0dabee26ee8fc2365441e58991"
 local Version    = "1.0"
-local SCRIPT_URL = "https://raw.githubusercontent.com/244256/DuneV1/refs/heads/main/DuneV1"
+local SCRIPT_URL = "https://raw.githubusercontent.com/244256/DuneV1/refs/heads/main/DuneV1?token=GHSAT0AAAAAADWGITAFR47NO32XUNLQ7X4M2NZ5ZUQ"
 local STORE_URL  = "https://dune-store.mysellauth.com"
 
 local HS = game:GetService("HttpService")
