@@ -478,7 +478,6 @@ Btn.MouseButton1Click:Connect(function()
         if ok and res and res.StatusCode == 200 then
             local fn, err = loadstring(res.Body)
             if fn then
-                setfenv(fn, getfenv())
                 fn()
             else
                 warn("[Dune V2] loadstring error: " .. tostring(err))
